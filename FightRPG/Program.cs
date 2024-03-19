@@ -9,14 +9,6 @@ class Program
             new Tank("Tank", 120, armor : 500, 20, "Defense",4),
             new Mage("Mage", 90, armor : 20, 15, "Mana", 2)
         };
-    static List<Fighter> fighters2 = new List<Fighter>
-        {
-            new Warrior("Warrior", 100, armor: 20,20,"Double Damage",4),
-            new Rogue("Rogue", 90, armor : 20, 10, "Dodge", 2),
-            new Druid("Druid", 110, armor : 20, 20, "Heal",3),
-            new Tank("Tank", 120, armor : 500, 20, "Defense",4),
-            new Mage("Mage", 90, armor : 20, 15, "Mana", 2)
-        };
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the Fighter Battle Game!");
@@ -38,10 +30,28 @@ class Program
 
         Fight(  fighterIndex1,  fighterIndex2);
     }
+    private static Fighter CreateHero(int value)
+    {
+        switch (value)
+        {
+            case 1:
+                return new Warrior("Warrior", 100, armor: 20, 20, "Double Damage", 4);
+            case 2:
+                return new Rogue("Rogue", 90, armor: 20, 10, "Dodge", 2);
+            case 3:
+                return new Druid("Druid", 110, armor: 20, 20, "Heal", 3);
+            case 4:
+                return new Tank("Tank", 120, armor: 500, 20, "Defense", 4);
+            case 5:
+                return new Mage("Mage", 90, armor: 20, 15, "Mana", 2);
+            default:
+                return new Warrior("Warrior", 100, armor: 20, 20, "Double Damage", 4);
+        }
+    }
     public static void Fight( int x, int y)
     { 
-        Fighter selectedFighter1Copy = fighters[x];
-        Fighter selectedFighter2Copy = fighters2[y];
+        Fighter selectedFighter1Copy = CreateHero(x);
+        Fighter selectedFighter2Copy = CreateHero(y);
         int Round = 1;
         Console.WriteLine($"Начинается бой между {selectedFighter1Copy.Name} и {selectedFighter2Copy.Name}. \n_________________________________________________\nРаунд - {Round}");
         while (selectedFighter1Copy.Health > 0 && selectedFighter2Copy.Health > 0)
