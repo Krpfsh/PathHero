@@ -1,0 +1,15 @@
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\bin\Debug\net6.0\FightRPG.exe
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\bin\Debug\net6.0\FightRPG.deps.json
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\bin\Debug\net6.0\FightRPG.runtimeconfig.json
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\bin\Debug\net6.0\FightRPG.dll
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\bin\Debug\net6.0\FightRPG.pdb
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.csproj.AssemblyReference.cache
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.AssemblyInfoInputs.cache
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.AssemblyInfo.cs
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.csproj.CoreCompileInputs.cache
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.dll
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\refint\FightRPG.dll
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.pdb
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\FightRPG.genruntimeconfig.cache
+C:\Users\KARP\Desktop\Тестовое\FightRPG\FightRPG\obj\Debug\net6.0\ref\FightRPG.dll
