@@ -22,11 +22,11 @@ class Program
         }
 
         Console.WriteLine("Enter the number of the first fighter:");
-        int fighterIndex1 = int.Parse(Console.ReadLine()) - 1;
+        int fighterIndex1 = int.Parse(Console.ReadLine());
 
 
         Console.WriteLine("Enter the number of the second fighter:");
-        int fighterIndex2 = int.Parse(Console.ReadLine()) - 1;
+        int fighterIndex2 = int.Parse(Console.ReadLine());
 
         Fight(  fighterIndex1,  fighterIndex2);
     }
